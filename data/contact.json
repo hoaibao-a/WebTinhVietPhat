@@ -1,0 +1,35 @@
+{
+  "page_title": "Liên Hệ - Cửa Hàng Điện Nước XYZ",
+  "contact_info": {
+    "title": "Thông Tin Liên Hệ",
+    "address": {
+      "label": "Địa chỉ:",
+      "value": "123 Đường ABC, Phường XYZ, Quận 1, TP. Hồ Chí Minh",
+      "icon_class": "fas fa-map-marker-alt"
+    },
+    "phone": {
+      "label": "Điện thoại:",
+      "value": "0987 654 321",
+      "link": "tel:0987654321",
+      "icon_class": "fas fa-phone-alt"
+    },
+    "email": {
+      "label": "Email:",
+      "value": "info@diennuocxyz.com",
+      "link": "mailto:info@diennuocxyz.com",
+      "icon_class": "fas fa-envelope"
+    },
+    "working_hours": {
+      "label": "Giờ làm việc:",
+      "value": "Thứ 2 - Thứ 7: 8:00 - 18:00",
+      "icon_class": "fas fa-clock"
+    }
+  },
+  "contact_form": {
+    "title": "Gửi Yêu Cầu Tư Vấn",
+    "action_url": "#", 
+    "submit_button_text": "Gửi Tin Nhắn"
+  },
+  "google_map_iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.447746107584!2d106.6272993153494!3d10.82309899232098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b8a6e8e6b3%3A0x9b8a3b8e6b3a3b8e!2zVMOibiBCw6xuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1678886400000!5m2!1svi!2s" 
+}
+

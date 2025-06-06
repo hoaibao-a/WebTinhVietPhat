@@ -1,0 +1,34 @@
+{
+  "page_title": "Giới Thiệu Về Điện Nước XYZ",
+  "sections": [
+    {
+      "type": "intro",
+      "title": "Về Chúng Tôi - Cửa Hàng Điện Nước XYZ",
+      "content": [
+        "Cửa hàng Điện Nước XYZ tự hào là đơn vị uy tín chuyên cung cấp các sản phẩm điện nước chất lượng cao, đa dạng mẫu mã như vòi sen, bồn cầu, chậu rửa, máy bơm, dây điện, ống nước và hàng ngàn phụ kiện khác.",
+        "Với nhiều năm kinh nghiệm trong ngành, chúng tôi cam kết mang đến cho quý khách hàng những sản phẩm chính hãng, nguồn gốc rõ ràng với mức giá cạnh tranh nhất thị trường. Sự hài lòng của khách hàng là phương châm hoạt động hàng đầu của chúng tôi."
+      ],
+      "image_url": "images/about/cua-hang-xyz.jpg",
+      "image_alt": "Hình ảnh mặt tiền cửa hàng Điện Nước XYZ"
+    },
+    {
+      "type": "mission_vision", 
+      "mission": {
+        "title": "Sứ Mệnh",
+        "text": "Cung cấp giải pháp điện nước toàn diện, an toàn và tiết kiệm cho mọi gia đình Việt."
+      },
+      "vision": {
+        "title": "Tầm Nhìn",
+        "text": "Trở thành chuỗi cửa hàng điện nước hàng đầu, được khách hàng tin tưởng lựa chọn."
+      }
+    },
+    {
+      "type": "team",
+      "title": "Đội Ngũ Chuyên Nghiệp",
+      "content": "Đội ngũ nhân viên tư vấn và kỹ thuật viên của Điện Nước XYZ được đào tạo bài bản, giàu kinh nghiệm, luôn sẵn sàng hỗ trợ khách hàng lựa chọn sản phẩm phù hợp và giải đáp mọi thắc mắc.",
+      "image_url": "images/about/doi-ngu-nhan-vien.jpg",
+      "image_alt": "Đội ngũ nhân viên Điện Nước XYZ"
+    }
+  ]
+}
+

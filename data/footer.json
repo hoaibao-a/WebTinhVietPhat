@@ -1,0 +1,18 @@
+{
+  "contact_info": {
+    "address": "123 Đường ABC, Phường XYZ, Quận 1, TP. Hồ Chí Minh",
+    "phone": "0987 654 321",
+    "email": "info@diennuocxyz.com"
+  },
+  "social_media": [
+    { "name": "Facebook", "link": "https://facebook.com/diennuocxyz", "icon_class": "fab fa-facebook-f" },
+    { "name": "Zalo", "link": "https://zalo.me/0987654321", "icon_class": "fa-brands fa-rocketchat" }, 
+    { "name": "Instagram", "link": "https://instagram.com/diennuocxyz", "icon_class": "fab fa-instagram" }
+  ],
+  "policies": [
+    { "label": "Chính sách bảo mật", "link": "#" },
+    { "label": "Điều khoản sử dụng", "link": "#" }
+  ],
+  "copyright_text": "© 2025 Cửa Hàng Điện Nước XYZ. Bảo lưu mọi quyền."
+}
+

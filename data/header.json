@@ -1,0 +1,16 @@
+{
+  "logo": {
+    "type": "text", 
+    "text": "Điện Nước XYZ",
+    "image_url": "", 
+    "alt_text": "Logo Điện Nước XYZ",
+    "link": "index.html"
+  },
+  "navigation": [
+    { "label": "Trang chủ", "link": "index.html" },
+    { "label": "Sản phẩm", "link": "products.html" },
+    { "label": "Giới thiệu", "link": "about.html" },
+    { "label": "Liên hệ", "link": "contact.html" }
+  ]
+}
+
