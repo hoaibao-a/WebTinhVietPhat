@@ -1,13 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("contact-form-element");
 
+  // CHẮC CHẮN LUÔN ĐÚNG action
+  form.action = "https://formsubmit.co/baopham639567@gmail.com";
+
   form.addEventListener("submit", async function (e) {
     e.preventDefault();
 
     const formData = new FormData(form);
 
     try {
-      const response = await fetch(form.action, { // CHÚ Ý: form.action!
+      const response = await fetch(form.action, {
         method: "POST",
         body: formData,
         headers: { 'Accept': 'application/json' }

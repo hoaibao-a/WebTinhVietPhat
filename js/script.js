@@ -231,7 +231,8 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("contact-form-title").textContent = contactData.contact_form.title || "Gửi Yêu Cầu";
             document.getElementById("contact-submit-button").textContent = contactData.contact_form.submit_button_text || "Gửi";
             const formElement = document.getElementById("contact-form-element");
-            if (formElement) formElement.action = contactData.contact_form.action_url || "#";
+           if (formElement && contactData.contact_form.action_url) {}
+
         }
 
         // Render Google Map
