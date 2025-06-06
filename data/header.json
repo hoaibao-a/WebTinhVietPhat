@@ -1,9 +1,8 @@
 {
   "logo": {
-    "type": "text", 
-    "text": "Điện Nước XYZ",
-    "image_url": "", 
-    "alt_text": "Logo Điện Nước XYZ",
+    "type": "image", 
+    "image_url": "images/logo/logo.png", 
+    "alt_text": "Logo Điện Nước XYZ", 
     "link": "index.html"
   },
   "navigation": [
@@ -13,4 +12,3 @@
     { "label": "Liên hệ", "link": "contact.html" }
   ]
 }
-
