@@ -277,20 +277,16 @@ section:nth-child(even) {
 
 /* --- Product Grid --- */
 .product-grid {
-    display: grid;
+     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
+    padding: 1rem;
 }
 
 .product-card {
-    background-color: var(--white-color);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
+    flex-shrink: 1; /* Cho phép sản phẩm co lại nếu cần */
 }
 
 .product-card:hover {
@@ -300,10 +296,12 @@ section:nth-child(even) {
 
 .product-card img {
     width: 100%;
-    height: 200px; /* Fixed height */
-    object-fit: cover;
+    max-height: 250px; /* Giới hạn chiều cao tối đa */
+    object-fit: contain; /* Giữ tỷ lệ ảnh không bị kéo dài */
     border-bottom: 1px solid var(--border-color);
 }
+
+
 
 .product-info {
     padding: 1rem;
@@ -590,73 +588,13 @@ section:nth-child(even) {
 
 /* Mobile devices */
 @media (max-width: 768px) {
-    html {
-        font-size: 15px;
-    }
-    
-    .main-nav ul {
-        display: none; 
-        flex-direction: column;
-        position: absolute;
-        top: 100%; 
-        left: 0;
-        width: 100%;
-        background-color: var(--white-color);
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-        padding: 1rem 0;
-        gap: 0;
-    }
-
-    .main-nav ul.active {
-        display: flex; 
-    }
-
-    .main-nav li {
-        width: 100%;
-        text-align: center;
-    }
-
-    .main-nav a {
-        padding: 0.8rem 1rem;
-        display: block;
-        width: 100%;
-    }
-    
-    .main-nav a::after {
-       display: none; 
-    }
-
-    .mobile-menu-toggle {
-        display: block; 
-    }
-
-    section {
-        padding: 2rem 0;
-    }
-
     .product-grid {
-        grid-template-columns: 1fr; /* Stack products */
+        grid-template-columns: 1fr; /* Sản phẩm sẽ xếp theo cột duy nhất */
     }
 
-    .footer-grid {
-        grid-template-columns: 1fr; /* Stack footer sections */
-        text-align: center;
-    }
-    .footer-section h4 {
-        text-align: center;
-    }
-    .social-media-links {
-        text-align: center;
-    }
-    .modal-content {
-        width: 90%;
-        margin: 10% auto;
-        padding: 20px;
-    }
-    #modal-product-details img {
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+    .product-card img {
+        height: auto; /* Giảm chiều cao cố định trên các thiết bị di động */
+        object-fit: cover; /* Đảm bảo ảnh không bị kéo giãn */
     }
 }
 

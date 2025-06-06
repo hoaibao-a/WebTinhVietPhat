@@ -6,7 +6,7 @@
       "category": "Vòi Sen",
       "description": "Vòi sen tăng áp lực nước mạnh mẽ, chất liệu inox 304 cao cấp, bền bỉ, chống gỉ sét. Thiết kế sang trọng, dễ dàng lắp đặt.",
       "price": 450000,
-      "image": "images/products/voi-sen-tang-ap.jpg",
+      "image": "images/product/voi-den-tang-ap.png",
       "features": [
         "Tăng áp lực nước hiệu quả",
         "Chất liệu Inox 304 cao cấp",
@@ -22,7 +22,7 @@
       "category": "Bồn Cầu",
       "description": "Bồn cầu liền khối thiết kế sang trọng, men sứ phủ nano chống bám bẩn, dễ vệ sinh. Hệ thống xả xoáy mạnh mẽ, tiết kiệm nước.",
       "price": 2500000,
-      "image": "images/products/bon-cau-lien-khoi.jpg",
+      "image": "images/product/bon-cau-lien-khoi-men-su-nano.png",
       "features": [
         "Thiết kế liền khối sang trọng",
         "Men sứ Nano chống bám bẩn",
@@ -38,7 +38,7 @@
       "category": "Bồn Rửa Tay",
       "description": "Chậu rửa mặt lavabo treo tường nhỏ gọn, phù hợp không gian hẹp. Chất liệu sứ cao cấp, trắng sáng, bền đẹp.",
       "price": 750000,
-      "image": "images/products/chau-rua-treo-tuong.jpg",
+      "image": "images/product/chau-rua-mat-lavabo-treo-tuong.png",
       "features": [
         "Thiết kế treo tường tiết kiệm không gian",
         "Chất liệu sứ cao cấp",
@@ -54,7 +54,7 @@
       "category": "Phụ Kiện",
       "description": "Vòi rửa bát nóng lạnh chất liệu inox, cần xoay linh hoạt, dễ dàng điều chỉnh nhiệt độ và lưu lượng nước.",
       "price": 600000,
-      "image": "images/products/voi-rua-bat.jpg",
+      "image": "images/product/voi-rua-bat-nong-lanh-inox.png",
       "features": [
         "Chất liệu inox bền đẹp",
         "Điều chỉnh nóng lạnh tiện lợi",
