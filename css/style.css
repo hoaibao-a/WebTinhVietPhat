@@ -405,13 +405,19 @@ section:nth-child(even) {
 }
 
 #modal-product-details img {
-    max-width: 50%;
-    height: auto;
-    margin-bottom: 1rem;
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
+    width: 100%; /* Ảnh sẽ có chiều rộng tự động */
+    height: auto; /* Giữ tỷ lệ ảnh */
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của modal */
+    max-height: 40vh; /* Giới hạn chiều cao ảnh không vượt quá 80% chiều cao cửa sổ */
+    object-fit: contain; /* Đảm bảo ảnh không bị cắt xén hoặc kéo giãn */
 }
-
+#modal-product-details img {
+    width: 100%; /* Ảnh sẽ có chiều rộng tự động */
+    height: auto; /* Giữ tỷ lệ ảnh */
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của modal */
+    max-height: 40vh; /* Giới hạn chiều cao ảnh không vượt quá 80% chiều cao cửa sổ */
+    object-fit: contain; /* Đảm bảo ảnh không bị cắt xén hoặc kéo giãn */
+}
 #modal-product-details h3 {
     font-size: 1.8rem;
     color: var(--primary-color);
@@ -602,4 +608,5 @@ section:nth-child(even) {
 .hide {
     display: none !important;
 }
+
 
