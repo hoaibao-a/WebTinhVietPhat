@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("contact-form-element");
 
   // CHẮC CHẮN LUÔN ĐÚNG action
-  form.action = "https://formsubmit.co/baopham639567@gmail.com";
+  form.action = "https://formsubmit.co/ngocthuydesign1012@gmail.com";
 
   form.addEventListener("submit", async function (e) {
     e.preventDefault();
