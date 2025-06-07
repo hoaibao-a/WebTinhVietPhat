@@ -4,24 +4,24 @@
     "title": "Thông Tin Liên Hệ",
     "address": {
       "label": "Địa chỉ:",
-      "value": "123 Đường ABC, Phường XYZ, Quận 1, TP. Hồ Chí Minh",
+      "value": "152 Phạm Ngọc Thạch, Hiệp Thành, Thủ Dầu Một, Bình Dương, Việt Nam",
       "icon_class": "fas fa-map-marker-alt"
     },
     "phone": {
       "label": "Điện thoại:",
-      "value": "0987 654 321",
-      "link": "tel:0987654321",
+      "value": "0909 380 277",
+      "link": "tel:0909380277",
       "icon_class": "fas fa-phone-alt"
     },
     "email": {
       "label": "Email:",
-      "value": "info@diennuocxyz.com",
-      "link": "mailto:info@diennuocxyz.com",
+      "value": "ngocthuydesign1012@gmail.com",
+      "link": "mailto:ingocthuydesign1012@gmail.com",
       "icon_class": "fas fa-envelope"
     },
     "working_hours": {
       "label": "Giờ làm việc:",
-      "value": "Thứ 2 - Thứ 7: 8:00 - 18:00",
+      "value": "Thứ 2 - CN: 7:00 - 18:00",
       "icon_class": "fas fa-clock"
     }
   },
@@ -30,6 +30,6 @@
     "action_url": "#", 
     "submit_button_text": "Gửi Tin Nhắn"
   },
-  "google_map_iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.447746107584!2d106.6272993153494!3d10.82309899232098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b8a6e8e6b3%3A0x9b8a3b8e6b3a3b8e!2zVMOibiBCw6xuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1678886400000!5m2!1svi!2s" 
+  "google_map_iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1164.3928873508864!2d106.6573046294326!3d10.998411921222173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d10209f86e2f%3A0x7fb105998eaba0c5!2zVGhp4bq_dCBi4buLIMSRaeG7h24gbsaw4bubYyBWaeG7h3QgUGjDoXQgSQ!5e0!3m2!1svi!2s!4v1749276406160!5m2!1svi!2s" 
 }
 
